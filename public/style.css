@@ -1,0 +1,23 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .card {
+    width: 350px;
+    height: 250px;
+    background-color: whitesmoke;
+}
+
+.container .card form input[type='submit'] {
+    border-radius: 5px;
+    cursor: pointer;
+}

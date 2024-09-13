@@ -1,0 +1,26 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/public/style.css" />
+        <title>Url Shortener</title>
+    </head>
+    <style>
+        .card {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 10px;
+        }
+    </style>
+    <body>
+        <div class="container">
+            <div class="card">
+                <h4>Url: {{ .Url }}</h4>
+                <h4>ShortUrl: {{ .ShortUrl }}</h4>
+            </div>
+        </div>
+    </body>
+</html>

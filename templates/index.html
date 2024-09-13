@@ -1,0 +1,22 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/public/style.css" />
+        <title>Url Shortener</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="card">
+                <h1>Url Shortener</h1>
+                <form action="/api/shorturl" method="post">
+                    <label for="url">Enter full url: </label>
+                    <input type="url" name="url" id="url" />
+                    <input type="submit" value="Short" />
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
